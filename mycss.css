@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+header, footer{
+	font-family: verdana;
+	align-content: center;
+    background-color: #908CB1;
+    color: rgb(255,255,255);
+    margin: 10px;
+    padding: 10px;
+	text-align: center;
+}
+
+main{
+    display: table;
+    /* background-color: brown; */
+    width: 100%;
+	text-align: center;
+}
+
+aside{
+	font-family: verdana;
+	align-content: center;
+	font-size: 40px;
+	font-style: italic;
+    width: 30%;
+	margin-left: 10px;
+	padding-bottom: 10%;
+	padding-left: 10px;
+	background-color: #FFFFFF;
+   
+}
+
+section{
+    width: 100%;
+	background-color: #FFFFFF;
+	align-content: center;
+  
+}
+
+.column{
+    width: 33%;
+    background-color: #908CB1;
+    padding-top: 20px;
+	padding-bottom: 30px;
+	float: left;
+	align-content: center;
+	text-align: center;	
+}
+
+#snav{
+	background-color: #5EBF64;
+	width: 20%;
+    background-color: aqua;
+    padding-top: 20px;
+	padding-bottom: 30px;
+	float: left;
+	align-content: center;
+	text-align: center;
+}
+.snav_item{
+	float: left;
+	background-color: #E43437;
+	width: 70%;
+	
+}
+.snav_item b{
+	color: #000000;
+}
+
+#fnav{
+    list-style-type: none;
+    margin: 10px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+.fnav_item{
+    float: left;
+	text-align: center;
+}
+
+.fnav_item a{
+	font-family: verdana;align-content: center;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+}
+
+.fnav_item a:hover{
+    background-color: #908CB1;
+
+}
